@@ -50,4 +50,3 @@ async def chat_with_ai(request: ChatRequest):
 @app.get("/")
 def read_index():
     return {"status": "Сервер MOROF со стримингом успешно работает на Railway!"}
-
